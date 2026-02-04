@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
 
             <div ref={socialsRef} className="flex gap-4 justify-center lg:justify-start">
-              {[{ icon: Github, href: 'https://github.com/shahidlashari' }, { icon: Linkedin, href: 'https://linkedin.com/in/shahidlashari' }, { icon: Twitter, href: 'https://twitter.com/shahidlashari' }, { icon: Mail, href: 'mailto:lashari.py@gmail.com' }].map((s, i) => (
+              {[{ icon: Github, href: 'https://github.com/lasharipy/portfolio-web' }, { icon: Linkedin, href: 'https://linkedin.com/in/shahidlashari' }, { icon: Twitter, href: 'https://twitter.com/shahidlashari' }, { icon: Mail, href: 'mailto:lashari.py@gmail.com' }].map((s, i) => (
                 <a key={i} href={s.href} target="_blank" rel="noopener noreferrer" className="w-12 h-12 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-[#adb5bd] hover:text-white hover:bg-[#00d4ff] hover:border-[#00d4ff] transition-all duration-300 hover:scale-110">
                   <s.icon className="w-5 h-5" />
                 </a>
